@@ -43,7 +43,7 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 #### Wireframes
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
-https://www.figma.com/proto/TnvmvHhVNGNomeZSCTzlTy/P4?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1
+![](https://www.figma.com/proto/TnvmvHhVNGNomeZSCTzlTy/P4?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1)
 
 #### Component Architecture
 
@@ -83,7 +83,7 @@ src
 
 > Use this section to display an image of a computer generated ERD model. You can use draw.io, Lucidchart or another ERD tool.
 
-https://drive.google.com/file/d/1-YG7c5doHX6hmsL37It9dUqZUPULUZWk/view?usp=sharing
+![](https://drive.google.com/file/d/1-YG7c5doHX6hmsL37It9dUqZUPULUZWk/view?usp=sharing)
 <br>
 
 ***
