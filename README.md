@@ -43,7 +43,7 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 #### Wireframes
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
-![figma]([P4.pdf](https://github.com/Shinji-exe/Activision-Passion-Project/files/7042518/P4.pdf)
+![](P4(1).pdf)
 
 
 #### Component Architecture
