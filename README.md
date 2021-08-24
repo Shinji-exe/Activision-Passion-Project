@@ -43,8 +43,9 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 #### Wireframes
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
-![figma](P4 (1).pdf)
+![figma](https://www.figma.com/file/TnvmvHhVNGNomeZSCTzlTy/P4)
 
+<br/>
 
 #### Component Architecture
 
