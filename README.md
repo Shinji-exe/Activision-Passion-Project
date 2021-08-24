@@ -33,7 +33,6 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 | :--------------: | :----------------------------------------- |
 |      React       | _Front-end._ |
 |   React Router   | _Routing to different parts of the website._ |
-| React SemanticUI | _Lorem ipsum dolor sit amet, consectetur._ |
 |     SQL     | _Database searching._ |
 |  Rails | _axios calls for CRUD._ |
 
@@ -44,6 +43,7 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 #### Wireframes
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
+https://www.figma.com/proto/TnvmvHhVNGNomeZSCTzlTy/P4?node-id=1%3A2&scaling=min-zoom&page-id=0%3A1
 
 #### Component Architecture
 
