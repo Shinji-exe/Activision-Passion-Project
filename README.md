@@ -43,7 +43,8 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 #### Wireframes
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
-![figma](https://www.figma.com/file/TnvmvHhVNGNomeZSCTzlTy/P4)
+![figma](![Project4](https://user-images.githubusercontent.com/67288133/130703665-16e8e28d-0600-4c9c-b13b-0e931808bf50.png)
+)
 
 <br/>
 
