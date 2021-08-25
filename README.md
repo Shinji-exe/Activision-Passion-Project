@@ -4,15 +4,6 @@
 
 _**Activision** is a website based on the offical website from Activision. This website will have a blog post gaming news that is associated with Activision|Blizzard like Call of Duty, Overwatch, WoW and more
 
-
-<br>
-
-## MVP
-
-> The Minimum Viable Product should be a well-planned, easily-communicated product, ensuring that the client's deliverable will be achievable and meet specifications within the time frame estimated.
-
-_The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus fermentum risus vitae bibendum. Integer vel ipsum mollis odio sollicitudin ornare eu vel ex. In quis fringilla velit, ac maximus quam. Etiam eget placerat neque. Aenean faucibus sem non nisi lobortis ullamcorper._
-
 <br>
 
 ### Goals
@@ -34,7 +25,7 @@ _The **Project Title** MVP lorem ipsum dolor sit amet, consectetur adipiscing el
 |      React       | _Front-end._ |
 |   React Router   | _Routing to different parts of the website._ |
 |     SQL     | _Database searching._ |
-|  Rails | _axios calls for CRUD._ |
+|  Rails | _Axios calls for CRUD._ |
 
 <br>
 
