@@ -36,11 +36,9 @@ _**Activision** is a website based on the offical website from Activision. This 
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
 (Project4.png)
-(![image](https://user-images.githubusercontent.com/67288133/130703944-fd2bc57e-3e9c-4916-9fd1-5cb2f058d6e6.png)
-(![image](https://user-images.githubusercontent.com/67288133/130704106-1f194246-e35d-48f0-876e-7b5f741eb0a6.png)
-(![image](https://user-images.githubusercontent.com/67288133/130704203-f2bea366-6306-4886-b40d-6f7a4616463a.png)
-(![image](https://user-images.githubusercontent.com/67288133/130840456-a12784a0-856e-4427-84ec-f22c40ee7fb2.png)
 
+(![image](https://user-images.githubusercontent.com/67288133/130704106-1f194246-e35d-48f0-876e-7b5f741eb0a6.png)
+![image](https://github.com/Shinji-exe/Activision-Passion-Project/blob/8467aea9e38789b419ac31fa2fca3aab02ab049d/User%20makes%20post%20-%20Window.png)
 
 
 
