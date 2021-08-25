@@ -44,6 +44,8 @@ post
 <br/>
 comments
 ![image](https://github.com/Shinji-exe/Activision-Passion-Project/blob/f6b85fd6e0f7862489cb111978b7d0f6a6e742e7/User%20makes%20comment%20on%20post%20-%20Window.png)
+<br/>
+![image](https://github.com/Shinji-exe/Activision-Passion-Project/blob/98d5bc31c5828bf337d9859aa26a068481c674f9/User%20sees%20previous%20made%20comments%20-%20Window.png)
 
 
 
