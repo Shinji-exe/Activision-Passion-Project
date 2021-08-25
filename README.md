@@ -9,10 +9,11 @@ _**Activision** is a website based on the offical website from Activision. This 
 ### Goals
 
 - _Rails configuration,_
-- _Full CRUD for front and back end._
+- _Full CRUD for front._
 - _interactivity._
-- _post create delete._
-- _etc._
+- _posts show create update delete._
+- _comments show create update delete._
+- _user show create update delete._
 
 <br>
 
@@ -22,10 +23,10 @@ _**Activision** is a website based on the offical website from Activision. This 
 
 |     Library      | Description                                |
 | :--------------: | :----------------------------------------- |
-|      React       | _Front-end._ |
+|      React/CAR   | _Front-end,Axios calls._ |
 |   React Router   | _Routing to different parts of the website._ |
-|     SQL     | _Database searching._ |
-|  Rails | _Axios calls for CRUD._ |
+|     PostgreSQL   | _Database searching._ |
+| Ruby Rails | CRUD ._ |
 
 <br>
 
@@ -58,6 +59,13 @@ src
       |__ mockups
 |__ components/
       |__ Header.jsx
+      |__ Signin.jsx
+      |__ SignUp.jsx
+      |__ Navbar.jsx
+      |__ Layout.jsx
+      |__ Posts.jsx
+      |__ Comments.jsx
+      |__ Users.jsx
 |__ services/
 
 ```
@@ -68,6 +76,7 @@ src
 
 | Task                | Priority | Estimated Time | Time Invested | Actual Time |
 | ------------------- | :------: | :------------: | :-----------: | :---------: |
+| Rails/Back-End      |    H     |     4 hrs      |     3 hrs     |     TBD     |
 | Add Contact Form    |    L     |     3 hrs      |     2 hrs     |     TBD     |
 | Create CRUD Actions |    H     |     3 hrs      |     1 hrs     |     TBD     |
 | TOTAL               |          |     6 hrs      |     3 hrs     |     TBD     |
