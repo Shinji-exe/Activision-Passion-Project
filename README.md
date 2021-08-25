@@ -38,9 +38,12 @@ _**Activision** is a website based on the offical website from Activision. This 
 (Project4.png)
 
 (![image](https://user-images.githubusercontent.com/67288133/130704106-1f194246-e35d-48f0-876e-7b5f741eb0a6.png)
+<br/>
+post
 ![image](https://github.com/Shinji-exe/Activision-Passion-Project/blob/8467aea9e38789b419ac31fa2fca3aab02ab049d/User%20makes%20post%20-%20Window.png)
-
-
+<br/>
+comments
+![image](https://github.com/Shinji-exe/Activision-Passion-Project/blob/f6b85fd6e0f7862489cb111978b7d0f6a6e742e7/User%20makes%20comment%20on%20post%20-%20Window.png)
 
 
 
