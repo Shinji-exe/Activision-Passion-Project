@@ -40,7 +40,8 @@ _**Activision** is a website based on the offical website from Activision. This 
 ![figma](![image](https://user-images.githubusercontent.com/67288133/130704106-1f194246-e35d-48f0-876e-7b5f741eb0a6.png)
 ![figma](![image](https://user-images.githubusercontent.com/67288133/130704203-f2bea366-6306-4886-b40d-6f7a4616463a.png)
 ![figma](![image](https://user-images.githubusercontent.com/67288133/130840456-a12784a0-856e-4427-84ec-f22c40ee7fb2.png)
-![figma](![image](https://user-images.githubusercontent.com/67288133/130840562-bde4dc07-4e00-4566-9832-5de4ac0541d4.png)
+![image](https://user-images.githubusercontent.com/67288133/130848546-d308489b-a3be-4032-a987-4356f86b2fa8.png)
+
 
 
 
