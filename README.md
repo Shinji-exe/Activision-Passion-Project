@@ -47,6 +47,8 @@ comments
 <br/>
 ![image](https://github.com/Shinji-exe/Activision-Passion-Project/blob/90957cd714a4549357ec2669d8da9cc44f92b540/User%20sees%20previous%20made%20comments%20-%20Window%20(2).png)
 User views all previous comments with ability to update and delete
+<br/>
+![image](https://github.com/Shinji-exe/Activision-Passion-Project/blob/a598df28e394535fe6fd3ed992d20135fcb363a3/User%20sees%20previous%20made%20post%20-%20Window%20(1).png)
 
 
 
