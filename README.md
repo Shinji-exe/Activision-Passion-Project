@@ -35,13 +35,12 @@ _**Activision** is a website based on the offical website from Activision. This 
 #### Wireframes
 
 > Use the Wireframes section to display desktop, tablet and mobile views. No hand-drawn wireframes. Use a tool like wireframe.cc, Whimsical or AdobeXD
-![figma](Project4.png)
-![figma](![image](https://user-images.githubusercontent.com/67288133/130703944-fd2bc57e-3e9c-4916-9fd1-5cb2f058d6e6.png)
-![figma](![image](https://user-images.githubusercontent.com/67288133/130704106-1f194246-e35d-48f0-876e-7b5f741eb0a6.png)
-![figma](![image](https://user-images.githubusercontent.com/67288133/130704203-f2bea366-6306-4886-b40d-6f7a4616463a.png)
-![figma](![image](https://user-images.githubusercontent.com/67288133/130840456-a12784a0-856e-4427-84ec-f22c40ee7fb2.png)
-![image](https://user-images.githubusercontent.com/67288133/130848546-d308489b-a3be-4032-a987-4356f86b2fa8.png)
-![image](https://user-images.githubusercontent.com/67288133/130849714-558c9cd0-0ae2-4920-bbbf-5cb84a3659c8.png)
+(Project4.png)
+(![image](https://user-images.githubusercontent.com/67288133/130703944-fd2bc57e-3e9c-4916-9fd1-5cb2f058d6e6.png)
+(![image](https://user-images.githubusercontent.com/67288133/130704106-1f194246-e35d-48f0-876e-7b5f741eb0a6.png)
+(![image](https://user-images.githubusercontent.com/67288133/130704203-f2bea366-6306-4886-b40d-6f7a4616463a.png)
+(![image](https://user-images.githubusercontent.com/67288133/130840456-a12784a0-856e-4427-84ec-f22c40ee7fb2.png)
+
 
 
 
