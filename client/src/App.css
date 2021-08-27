@@ -1,0 +1,121 @@
+/* * {
+  padding: 0;
+  margin: 0;
+} */
+
+/* body{
+font-family: monospace;
+} */
+
+/* .container {
+  height: 100px;
+  display: flex;
+} */
+
+/* section{
+  height:100%;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background: red;
+  flex: 1;
+} */
+
+/* *{
+  padding:0;
+
+}
+
+.contain{
+  height: 100vh;
+  display: flex;
+}
+
+section{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex:1;
+  transition: .5s ease-in-out;
+}
+
+section h1{
+  background: rgba(0,0,0,0.6);
+  color: white;
+  padding: 12px 32px;
+}
+
+.call{
+  background: url("https://techinsecs.com/wp-content/uploads/2019/10/call-of-duty-modern-warfare-price-video-fallback-01-ps4-us-31may19.jpg"); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode: multiply;
+}
+
+.of{
+  background: url("https://blog.playstation.com/tachyon/2020/08/Black-Ops-FI.jpg"); 
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.call:hover{
+  background-image:url("https://techinsecs.com/wp-content/uploads/2019/10/call-of-duty-modern-warfare-price-video-fallback-01-ps4-us-31may19.jpg");
+    animation-name: modern;
+    animation-direction: normal;
+    animation-duration: 40s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function:ease-in-out; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@keyframes modern{
+  0%{
+   background-image: url("https://techinsecs.com/wp-content/uploads/2019/10/call-of-duty-modern-warfare-price-video-fallback-01-ps4-us-31may19.jpg");
+  
+  }
+  10%{
+    background-image: url("https://www.playstationlifestyle.net/assets/uploads/2019/11/Modern-warfare-patch-1.08-1280x720.jpg")
+  }
+  20%{
+    background-image: url("https://images.hdqwalls.com/download/call-of-duty-modern-warfare-2019-gi-1280x720.jpg")
+  }
+  30%{
+    background-image: url("https://pbs.twimg.com/media/EWnOeAEXkAAm6Z7.jpg:large")
+  }
+  40%{
+    background-image: url("https://www.comingsoon.net/assets/uploads/2019/08/cod-1280x720.jpg")
+  }
+  50%{
+    background-image: url("https://assets1.ignimgs.com/2019/07/22/modern-warfare-1563819085340_160w.png?width=1280")
+  }
+  60%{
+    background-image: url("https://gamingbolt.com/wp-content/uploads/2019/05/call-of-duty-modern-warfare-1280x720.jpg")
+  }
+  70%{
+    background-image: url("https://www.playstationlifestyle.net/assets/uploads/2019/10/Call-of-Duty-Modern-Warfare-Trophies-1280x720.jpg")
+  }
+  80%{
+    background-image: url("https://sm.ign.com/ign_in/screenshot/b/bcall-of-d/bcall-of-duty-modern-warfare-battle-royalebbrbran-unannounce_sj17.jpg")
+  }
+  90%{
+    background-image: url("https://assets1.ignimgs.com/2019/06/11/23213-1560293610130_160w.png?width=1280")
+  }
+}
+
+.dev{
+  background: url("https://kaijugaming.com/wp-content/uploads/2021/08/Call-of-Duty-Vanguard-Alpha-Brings-Champion-Hill-Mode-to.jpg"); 
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+section:hover{
+  flex: 5;
+} */

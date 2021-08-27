@@ -1,0 +1,198 @@
+*{
+    padding:0;
+  
+  }
+  
+  .contain{
+    height: 100vh;
+    display: flex;
+  }
+  
+  section{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex:1;
+    transition: .5s ease-in-out;
+  }
+  
+  section h1{
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 12px 32px;
+  }
+  
+  .call{
+    background: url("https://techinsecs.com/wp-content/uploads/2019/10/call-of-duty-modern-warfare-price-video-fallback-01-ps4-us-31may19.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-blend-mode: multiply;
+  }
+  
+  
+  
+  .call:hover{
+    background-image:url("https://techinsecs.com/wp-content/uploads/2019/10/call-of-duty-modern-warfare-price-video-fallback-01-ps4-us-31may19.jpg");
+      animation-name: modern;
+      animation-direction: normal;
+      animation-duration: 40s;
+      animation-fill-mode: forwards;
+      animation-iteration-count: infinite;
+      animation-play-state: running;
+      animation-timing-function:ease-in-out; 
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  @keyframes modern{
+    0%{
+     background-image: url("https://techinsecs.com/wp-content/uploads/2019/10/call-of-duty-modern-warfare-price-video-fallback-01-ps4-us-31may19.jpg");
+    
+    }
+    10%{
+      background-image: url("https://www.playstationlifestyle.net/assets/uploads/2019/11/Modern-warfare-patch-1.08-1280x720.jpg")
+    }
+    20%{
+      background-image: url("https://images.hdqwalls.com/download/call-of-duty-modern-warfare-2019-gi-1280x720.jpg")
+    }
+    30%{
+      background-image: url("https://pbs.twimg.com/media/EWnOeAEXkAAm6Z7.jpg:large")
+    }
+    40%{
+      background-image: url("https://www.comingsoon.net/assets/uploads/2019/08/cod-1280x720.jpg")
+    }
+    50%{
+      background-image: url("https://assets1.ignimgs.com/2019/07/22/modern-warfare-1563819085340_160w.png?width=1280")
+    }
+    60%{
+      background-image: url("https://gamingbolt.com/wp-content/uploads/2019/05/call-of-duty-modern-warfare-1280x720.jpg")
+    }
+    70%{
+      background-image: url("https://www.playstationlifestyle.net/assets/uploads/2019/10/Call-of-Duty-Modern-Warfare-Trophies-1280x720.jpg")
+    }
+    80%{
+      background-image: url("https://sm.ign.com/ign_in/screenshot/b/bcall-of-d/bcall-of-duty-modern-warfare-battle-royalebbrbran-unannounce_sj17.jpg")
+    }
+    90%{
+      background-image: url("https://assets1.ignimgs.com/2019/06/11/23213-1560293610130_160w.png?width=1280")
+    }
+  }
+
+  .of{
+    background: url("https://blog.playstation.com/tachyon/2020/08/Black-Ops-FI.jpg"); 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .of:hover{
+    background-image: url("https://blog.playstation.com/tachyon/2020/08/Black-Ops-FI.jpg");
+    animation-name: cold;
+    animation-direction: normal;
+    animation-duration: 40s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function:ease-in-out; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @keyframes cold{
+    0%{
+     background-image: url("https://blog.playstation.com/tachyon/2020/08/Black-Ops-FI.jpg");
+    
+    }
+    10%{
+      background-image: url("https://dl.img-news.com/dl/img/s2/dl/2020/08/1598490897_1280x720.jpg")
+    }
+    20%{
+      background-image: url("https://www.gamespot.com/a/uploads/screen_kubrick/1574/15747411/3732292-vlcsnap-2020-09-09-07h15m57s175%282%29.jpg")
+    }
+    30%{
+      background-image: url("https://oyster.ignimgs.com/mediawiki/apis.ign.com/call-of-duty-black-ops-cold-war/5/5c/EkYVeBxVgAAnMwk.jpg?width=1280")
+    }
+    40%{
+      background-image: url("https://cdn.statically.io/img/guidefall.com/f=auto/wp-content/uploads/2020/11/COD-BOCW-1280x720-1.jpg")
+    }
+    50%{
+      background-image: url("https://cdn.mos.cms.futurecdn.net/R6yhHD5m5efxA7HqaLkhQM.jpg")
+    }
+    60%{
+      background-image: url("https://attackofthefanboy.com/wp-content/uploads/2021/07/Call-of-Duty-Black-Ops-Cold-War-Weaver.jpg")
+    }
+    70%{
+      background-image: url("https://www.cyberockk.com/wp-content/uploads/2021/04/Call-of-Duty-Season-Three-1280x720.jpg")
+    }
+    80%{
+      background-image: url("https://images.squarespace-cdn.com/content/v1/56d5457d8259b57a20245e80/1599700745096-XH6AHK95CL09WHZ33K2Y/call-of-duty-black-ops-cold-war.jpg?format=1500w")
+    }
+    90%{
+      background-image: url("https://assets1.ignimgs.com/2020/11/20/callofdutyblackopscoldwar-singleplayer-blogroll-1605913308195_160w.jpg?width=1280")
+    }
+  }
+
+  
+  .dev{
+    background-image: url("https://kaijugaming.com/wp-content/uploads/2021/08/Call-of-Duty-Vanguard-Alpha-Brings-Champion-Hill-Mode-to.jpg"); 
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+
+  .dev:hover{
+    background-image: url("https://kaijugaming.com/wp-content/uploads/2021/08/Call-of-Duty-Vanguard-Alpha-Brings-Champion-Hill-Mode-to.jpg");
+    animation-name: vanguard;
+    animation-direction: normal;
+    animation-duration: 40s;
+    animation-fill-mode: forwards;
+    animation-iteration-count: infinite;
+    animation-play-state: running;
+    animation-timing-function:ease-in-out; 
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  @keyframes vanguard{
+    0%{
+     background-image: url("https://kaijugaming.com/wp-content/uploads/2021/08/Call-of-Duty-Vanguard-Alpha-Brings-Champion-Hill-Mode-to.jpg");
+    
+    }
+    10%{
+      background-image: url("https://cdn.earlygame.com/uploads/images/_headerImage/Vanguard-Gameplay-Leaked.jpg")
+    }
+    20%{
+      background-image: url("https://gamingintel.com/wp-content/uploads/2021/08/How-to-Play-Call-of-Duty-Vanguard-Beta-Release-Date-More.jpg")
+    }
+    30%{
+      background-image: url("https://attackofthefanboy.com/wp-content/uploads/2021/08/Call-of-Duty-Vanguard-Pilot.jpg")
+    }
+    40%{
+      background-image: url("https://images.pushsquare.com/48a5bba63d19a/1280x720.jpg")
+    }
+    50%{
+      background-image: url("https://cdn.gracza.pl/i_gp/h/22/357307055.jpg")
+    }
+    60%{
+      background-image: url("https://curatedmint.com/wp-content/uploads/2021/08/Everything-We-Know-About-Call-of-Duty-Vanguard-1280x720.jpg")
+    }
+    70%{
+      background-image: url("https://www.gamespot.com/a/uploads/screen_kubrick/1179/11799911/3840939-screenshot2021-06-09at10.06.12am.png")
+    }
+    80%{
+      background-image: url("https://news360world.com/wp-content/uploads/2021/08/Call-Of-Duty-Vanguard-Teaser-Trailer-Promises-An-August-19-1280x720.jpg")
+    }
+    90%{
+      background-image: url("https://images.pushsquare.com/7f53c90825a62/1280x720.jpg")
+    }
+  }
+
+  
+  section:hover{
+    flex: 2;
+  }

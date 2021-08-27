@@ -1,0 +1,33 @@
+.back{
+    background-image: url("https://imgsvc.trackercdn.com/url/size(1280x720),fit(cover),quality(80)/https%3A%2F%2Ftrackercdn.com%2Fghost%2Fimages%2F2021%2F8%2F191017_3zCgobrLikbLfKfDnUsqYBEP.jpg/image.jpg");
+    width: 100%;
+    height: 949px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.lo{
+    position: absolute;
+    bottom: 300px;
+    left: 40px;
+    border: 2px solid black;
+    border-radius: 90%;
+    width: 250px;
+    height: 250px;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.lo h1{
+    position: absolute;
+    top: 90px;
+    left: 1px;
+    font-size: 28px;
+    color: white;
+}
+
+form{
+   position:absolute;
+   left: 810px;
+   top: 700px;
+}
