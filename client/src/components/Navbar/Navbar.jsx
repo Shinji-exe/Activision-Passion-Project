@@ -40,7 +40,7 @@ export default function Navbar(props) {
             <div className = "links">
                 {props.currentUser && <div> Soldier on,{props.currentUser.username}</div>}
                 {alwaysOptions}
-                {props.currentUser ? authenticatedOptions() : unauthenticatedOptions}
+                {props.currentUser ? authenticatedOptions(props.handleLogout) : unauthenticatedOptions}
             </div>
         </div>
         </nav>

@@ -2,16 +2,15 @@
 import './App.css';
 import {useHistory, Route, Switch} from "react-router-dom"
 import {useState,useEffect} from 'react'
-import Main from "../src/components/Main/Main"
 // import Navbar from "../src/components/Navbar/Navbar"
 import SignIn from './components/Screens/SignIn';
 import Signup from './components/SignUps/SignUp';
 import {loginUser, registerUser, verifyUser, removeToken} from "../src/services/auth"
 import Layout from './components/Layout/Layout';
-import PostCreate from './components/PostCreate/PostCreate';
-import Trend from './components/Trend/Trend';
-import CommentCreate from './components/Comment/CommentCreate';
-import Blog from './components/Blog/Blog';
+// import PostCreate from './components/PostCreate/PostCreate';
+// import Trend from './components/Trend/Trend';
+// import CommentCreate from './components/Comment/CommentCreate';
+// import Blog from './components/Blog/Blog';
 import Container from './containers/Container';
 function App() {
   const [currentUser, setCurrentUser] = useState(null)

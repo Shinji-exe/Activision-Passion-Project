@@ -10,15 +10,15 @@ export default function Main() {
             <div>
       <div className = "contain">
       <section className ="call">
-        <h1>Modern Warfare</h1>
+        {/* <h1>Modern Warfare</h1> */}
       </section>
 
       <section className ="of">
-        <h1>Cold War</h1>
+        {/* <h1>Cold War</h1> */}
       </section>
 
       <section className = "dev">
-        <h1>Vanguard</h1>
+        {/* <h1>Vanguard</h1> */}
       </section>
 
       </div>

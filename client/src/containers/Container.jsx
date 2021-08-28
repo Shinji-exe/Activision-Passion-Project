@@ -5,6 +5,7 @@ import {getAllComments, postComment, putComment, deleteComment} from "../service
 import PostCreate from '../components/PostCreate/PostCreate';
 import PostEdit from "../components/PostEdit/PostEdit"
 import PostDetail from "../components/PostDetail/PostDetail"
+import Post from "../components/Posts/Posts"
 import Trend from '../components/Trend/Trend';
 import CommentCreate from '../components/Comment/CommentCreate';
 import Blog from '../components/Blog/Blog';
@@ -21,6 +22,7 @@ export default function Container(props) {
             const postList = await getAllPosts();
             setPosts(postList);
         };
+        fetchPost();
     }, [])
 
 
@@ -40,7 +42,7 @@ export default function Container(props) {
     const handleCreate = async (formData) => {
         const postData = await postPost(formData);
         setPosts((prevState) => [...prevState, postData])
-        history.push("/")
+        history.push("/blog")
     }
 
     const handleUpdate = async (id, formData) => {
@@ -50,7 +52,7 @@ export default function Container(props) {
             return post.id  === Number(id) ? postData : post
         })
         );
-        history.push('/posts')
+        history.push('/blog')
     }
 
     const handleDelete = async (id) => {
@@ -58,7 +60,7 @@ export default function Container(props) {
         setPosts((prevState)=>prevState.filter((post) => post.id !== id))
     };
 
-    const handleCreator = async (formData) => {
+    const handleMake = async (formData) => {
         const commentData = await postComment(formData);
         setComments((prevState)=> 
         [...prevState, commentData])
@@ -69,22 +71,22 @@ export default function Container(props) {
     <div>
       <Switch>
           <Route path="/create-comment">
-              <CommentCreate handleCreator={handleCreator}/>
+              <CommentCreate handleMake={handleMake}/>
           </Route>
         <Route path="/create-post">
           <PostCreate handleCreate= {handleCreate}/>
         </Route>
+        <Route path="/posts/:id/edit">
+         <PostEdit posts={posts} handleUpdate={handleUpdate}/>
+        </Route>
         <Route path="/trend">
           <Trend />
         </Route>
-        <Route path="/post-edit">
-         <PostEdit posts={posts} handleUpdate={handleUpdate}/>
-        </Route>
         <Route path="/posts-details">
-            <PostDetail />
+            <PostDetail posts={posts}/>
         </Route>
         <Route path="/blog">
-          <Blog posts={Posts} handleDelete={handleDelete} currentUser={currentUser}/>
+          <Blog posts={posts} handleDelete={handleDelete} currentUser={currentUser}/>
         </Route>
         <Route path="/">
           <Main currentUser={currentUser}/>
@@ -95,6 +97,6 @@ export default function Container(props) {
 }
 
 
-{/* <Route path="/create-comment">
+/* <Route path="/create-comment">
           <CommentCreate />
-        </Route> */}
+        </Route> */

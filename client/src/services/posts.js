@@ -16,11 +16,11 @@ export const postPost = async (postData) => {
 };
 
 export const putPost = async (id, postData) => {
-  const resp = await api.put(`/foods/${id}`, { post: postData });
+  const resp = await api.put(`/posts/${id}`, { post: postData });
   return resp.data;
 };
 
 export const deletePost = async (id) => {
-  const resp = await api.delete(`/foods/${id}`);
+  const resp = await api.delete(`/posts/${id}`);
   return resp;
 };

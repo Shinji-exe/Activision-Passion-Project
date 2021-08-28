@@ -13,7 +13,7 @@ export default function PostEdit(props) {
 
     useEffect(()=> {
         const prefillFormData = () => {
-            const postItem = posts.find((post)=> post.find === Number(id));
+            const postItem = posts.find((post)=> post.id === Number(id));
             setFormData({title: postItem.title, imgURL: postItem.imgURL, content: postItem.content})
         }
         if(posts.length){
@@ -36,20 +36,23 @@ export default function PostEdit(props) {
 
 
     return (
+        <div>
+           
         <form onSubmit = {handleSubmit}>
             <label>
         Name:
-        <input type='text' name='name' value={formData.title} onChange={handleChange}/>
+        <input type='text' name='title' value={formData.title} onChange={handleChange}/>
       </label>
       <label>
-        Name:
-        <input type='text' name='name' value={formData.imgURL} onChange={handleChange}/>
+        Image:
+        <input type='text' name='imgURL' value={formData.imgURL} onChange={handleChange}/>
       </label>
       <label>
-        Name:
+        Content:
         <input type='text' name='content' value={formData.content} onChange={handleChange}/>
       </label>
       <button>Submit</button>
         </form>
+        </div>
     )
 }

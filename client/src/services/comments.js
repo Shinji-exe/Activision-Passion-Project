@@ -28,4 +28,5 @@ export const deleteComment = async (id) => {
 
 export const addCommentToPost = async (postId, commentId) => {
     const resp = await api.get(`/posts/${postId}/comments/${commentId}`)
+    return resp.data
 }
