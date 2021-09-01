@@ -13,9 +13,9 @@ img{
 }
 
 .backends{
-    background-image: url("https://cdn.mos.cms.futurecdn.net/jH8KBsQoWQ4a4dkdVmTQpe.jpg");
+    background-image: url("https://i.vimeocdn.com/video/1038645087_1280x720.jpg");
     width: 100%;
-    height: 150px;
+    height: 300px;
     background-position: center;
     background-size: cover;
 }
@@ -35,5 +35,12 @@ img{
     }
     img{
         width: 100%;
+    }
+    .backends{
+        background-image: url("https://i.vimeocdn.com/video/1038645087_1280x720.jpg");
+        width: 100%;
+        height: 150px;
+        background-position: center;
+        background-size: cover;
     }
 }
