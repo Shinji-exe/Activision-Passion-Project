@@ -3,7 +3,9 @@ import {useState, useEffect} from 'react'
 import {useParams} from 'react-router-dom'
 // import {getOnePost} from '../../components/PostDetail/PostDetail'
 import {getOnePost} from "../../services/posts"
-import {addCommentToPost} from "../../services/comments"
+import {postComment} from "../../services/comments"
+import {Link} from "react-router-dom"
+import AddComment from "../AddComment/AddComment"
 
 export default function PostDetail(props) {
     const [postItem, setPostItem] = useState(null)
@@ -19,34 +21,25 @@ export default function PostDetail(props) {
         fetchPostItem();
     }, [id]);
 
-    const handleChange = (e) => {
-        const {value} = e.target;
-        setSelectedComment(value);
-    };
+    
 
-    const handleSubmit = async (e) => {
-    e.preventDefault();
-    const postItem = await addCommentToPost(id, selectedComment);
+    const handleSubmit = async (commentData) => {
+    
+    const postItem = await postComment(commentData);
     setPostItem(postItem);
     };
 
 
     return (
-        <div>
+        <div className = "center">
             <h3>{postItem?.title}</h3>
+            <img src ={postItem?.imgURL}/>
+            <p>{postItem?.content}</p>
             {postItem?.comments.map((comment) => (
         <p key={comment.id}>{comment.content}</p>
       ))}
-            <form onSubmit={handleSubmit}>
-                <select onChange={handleChange} defaultValue='default'>
-                    <option disabled value="default">
-
-                    </option>
-                    {comments.map((comment)=>(
-                        <option value={comment.id}>{comment.content}</option>
-                    ))}
-                </select>
-            </form>
+      <AddComment id={id} handleSubmit={handleSubmit}/>
+            <Link to="/blog">Back</Link>
         </div>
     )
 }

@@ -12,6 +12,8 @@ import Blog from '../components/Blog/Blog';
 import Main from "../components/Main/Main"
 import Posts from "../components/Posts/Posts";
 export default function Container(props) {
+    console.log("container props", props) 
+
     const [posts, setPosts] = useState([])
     const [comments, setComments] = useState([])
     const {currentUser} = props;
@@ -71,7 +73,7 @@ export default function Container(props) {
     <div>
       <Switch>
           <Route path="/create-comment">
-              <CommentCreate handleMake={handleMake}/>
+              <CommentCreate handleMake={handleMake} currentUser={currentUser}/>
           </Route>
         <Route path="/create-post">
           <PostCreate handleCreate= {handleCreate}/>
@@ -82,8 +84,8 @@ export default function Container(props) {
         <Route path="/trend">
           <Trend />
         </Route>
-        <Route path="/posts-details">
-            <PostDetail posts={posts}/>
+        <Route path="/posts/:id">
+            <PostDetail comments={comments}/>
         </Route>
         <Route path="/blog">
           <Blog posts={posts} handleDelete={handleDelete} currentUser={currentUser}/>

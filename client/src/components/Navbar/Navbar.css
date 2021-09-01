@@ -23,3 +23,19 @@ color: red;
 text-decoration: underline;
 }
 
+.username{
+  color: white;
+  display: flex;
+  justify-content: center;
+}
+
+@media screen and (max-width: 600px){
+  nav{
+    width: 100%;
+  }
+  .links{
+    display: none;
+    /* justify-content: space-evenly;
+    align-items: right; */
+  }
+}

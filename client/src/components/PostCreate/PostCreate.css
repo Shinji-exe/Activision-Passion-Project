@@ -1,0 +1,31 @@
+label{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.backdrop{
+    background-image: url("https://assets.primagames.com/media/images/news/call-of-duty-modern-warfare-trials.jpg");
+    width: 100%;
+    height: 300px;
+    background-position: center;
+    background-size: cover;
+    
+}
+
+@media screen and (max-width: 600px){
+    .forum{
+        position: absolute;
+        left: 180px;
+        top: 200px;
+    }
+    .backdrop{
+        background-image: url("https://assets.primagames.com/media/images/news/call-of-duty-modern-warfare-trials.jpg");
+        width: 100%;
+        height: 150px;
+        background-position: center;
+        background-size: cover;
+        
+    }
+}
+

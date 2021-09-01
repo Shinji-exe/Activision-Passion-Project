@@ -196,3 +196,7 @@
   section:hover{
     flex: 2;
   }
+
+  @media screen and (max-width: 600px){
+
+  }

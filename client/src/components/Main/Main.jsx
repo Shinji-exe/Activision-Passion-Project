@@ -1,4 +1,5 @@
 import React from 'react'
+import Footer from '../Footer/Footer'
 import "./Main.css"
 
 
@@ -23,7 +24,7 @@ export default function Main() {
 
       </div>
     </div>
-    
+    <Footer/>
     </div>
     )
 }

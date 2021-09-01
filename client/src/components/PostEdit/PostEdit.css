@@ -1,0 +1,13 @@
+.former{
+    position: flex;
+    left: 850px;
+    top: 450px;
+}
+
+@media screen and (max-width: 600px){
+    .former{
+        position: flex;
+        left: 100px;
+        top: 250px;
+    }
+}

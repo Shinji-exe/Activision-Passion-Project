@@ -1,0 +1,39 @@
+h3{
+    color: black;
+}
+
+
+p{
+    color: black;
+}
+
+img{
+    width: 720px;
+
+}
+
+.backends{
+    background-image: url("https://cdn.mos.cms.futurecdn.net/jH8KBsQoWQ4a4dkdVmTQpe.jpg");
+    width: 100%;
+    height: 150px;
+    background-position: center;
+    background-size: cover;
+}
+
+.line{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 4px;
+}
+
+@media screen  and (max-width: 600px){
+    .line{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    }
+    img{
+        width: 100%;
+    }
+}

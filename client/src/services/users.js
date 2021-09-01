@@ -5,17 +5,17 @@ export const getOneUser = async (id) => {
   return resp.data;
 };
 
-export const post = async (foodData) => {
-  const resp = await api.post('/users', { food: foodData });
+export const post = async (userData) => {
+  const resp = await api.post('/users', { user: userData });
   return resp.data;
 };
 
-export const putPost = async (id, foodData) => {
-  const resp = await api.put(`/foods/${id}`, { food: foodData });
+export const putUser = async (id, userData) => {
+  const resp = await api.put(`/users/${id}`, { user: userData });
   return resp.data;
 };
 
-export const deletePost = async (id) => {
-  const resp = await api.delete(`/foods/${id}`);
+export const deleteUser = async (id) => {
+  const resp = await api.delete(`/users/${id}`);
   return resp;
 };

@@ -1,0 +1,15 @@
+.MuiSvgIcon-root{
+color: white;
+}
+
+.button{
+    display: none 
+ }
+
+@media screen and (max-width: 600px){
+    .button{
+        display: inline-flex;
+    }
+}
+
+

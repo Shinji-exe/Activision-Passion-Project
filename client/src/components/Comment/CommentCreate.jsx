@@ -5,8 +5,8 @@ export default function CommentCreate(props) {
         content: "",
     });
     const {content} = formData;
-    const {handleCreate} = props;
-
+    const {handleMake, currentUser} = props;
+console.log("comment props",props)
     const handleChange = (e) => {
         const {name, value} = e.target;
         setFormData((prevState) => ({
@@ -17,10 +17,10 @@ export default function CommentCreate(props) {
 
     const handleSubmit = (e) => {
     e.preventDefault();
-    handleCreate(formData)
+    handleMake(formData)
     }
     return (
-        <form onSubmit = {handleSubmit}>
+        <form onSubmit = {() => handleSubmit(currentUser.id)}>
             <h3>Create Comment</h3>
             <label>
                 Comment

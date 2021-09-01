@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Navbar.css"
 import {NavLink} from 'react-router-dom'
+import MobileMenu from '../MobileMenu/MobileMenu'
 //import {Layout} from "../Layout/Layout"
 
 // const logout = handleLogout();
@@ -13,7 +14,7 @@ const authenticatedOptions = (logout)=>(
         logout()
     }}>Sign Out</NavLink>
     <NavLink to ="create-post">Create Post</NavLink>
-    <NavLink to="create-comment">Create Comment</NavLink>
+    {/* <NavLink to="create-comment">Create Comment</NavLink> */}
      <NavLink className="redacted" to="/blog">Blog</NavLink>
     </>
 )
@@ -37,8 +38,9 @@ export default function Navbar(props) {
         <nav >
         <div className = "navs">
             <NavLink className="Activision" to="/">Activision</NavLink>
+            <MobileMenu currentUser={props.currentUser} handleLogout={props.handleLogout}/>
             <div className = "links">
-                {props.currentUser && <div> Soldier on,{props.currentUser.username}</div>}
+                {props.currentUser && <div className = "username"> Soldier on,{props.currentUser.username}</div>}
                 {alwaysOptions}
                 {props.currentUser ? authenticatedOptions(props.handleLogout) : unauthenticatedOptions}
             </div>

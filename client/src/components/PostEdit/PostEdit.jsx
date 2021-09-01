@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState, useEffect } from 'react'
 import {useParams} from 'react-router-dom';
-
+import "./PostEdit.css"
 export default function PostEdit(props) {
     const [formData, setFormData] = useState({
         title: "",
@@ -38,7 +38,7 @@ export default function PostEdit(props) {
     return (
         <div>
            
-        <form onSubmit = {handleSubmit}>
+        <form className="former" onSubmit = {handleSubmit}>
             <label>
         Name:
         <input type='text' name='title' value={formData.title} onChange={handleChange}/>
